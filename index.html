@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        nav a{
+            color: #da00ff;;
+            display :inline;
+            text-decoration:none;
+            word-spacing: 20px;
+            background: rgb(112, 81, 88);
+        }
+        h1{
+            text-align: center;
+            background: crimson;
+        }
+        #p1{
+            text-align: center;
+            background: darkred;
+        }
+        #p2{
+            text-align: center;
+            background:rgb(112, 81, 88) ;
+        }
+        #p3{
+            text-align: center;
+            background: gold;
+        }
+        #p4{
+            text-align: center;
+            background: rgb(5, 13, 41);
+        }
+        footer{
+            text-align: center;
+            background:maroon;
+        }
+
+    </style>
+    <title>user information</title>
+</head>
+<body>
+    <header>
+       <nav class>
+            <ul>
+                <li><a href="https://www.nrdc.org/stories/renewable-energy-clean-facts#sec-whatis">About </a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Renewable_energy"> wikipedia</a></li>
+                <li><a href="https://www.irena.org/">IRENA</a></li>
+            </ul>
+        </nav>
+
+        <h1>
+            Renewable energy
+        </h1>
+        
+
+    </header>
+    <main>
+        <p id= p1>
+            what is your name ?
+        </p>
+        <p id= p2>
+            what is your age ?
+        </p>
+        <p id= p3>
+            what is your  Specialization ?
+        </p>
+        <p id= p4>
+            what is your grade ?
+        </p>
+
+    </main>
+    <footer>
+        &copy;ASAC 2021
+
+    </footer>
+    <script>
+
+        let userName=prompt('what\'s your name? ');
+          console.log(userName);
+          alert(userName);
+          
+          let userAge=prompt('what\'s your age?');
+
+         console.log(userAge);
+         alert(userAge);
+         let userSpecialization=prompt('what\'s your Specialization?');
+         console.log(userSpecialization);
+         alert(userSpecialization);
+         let userGrade=prompt('what\'s your at your college ?')
+         console.log(userGrade);
+         alert(userGrade);
+
+
+        alert('Hi '+ userName + ' your age is '+ userAge + ' and your Specialization is ' 
+        + userSpecialization + ' finally your grade is ' + userGrade );
+    </script>
+</body>
+</html>
