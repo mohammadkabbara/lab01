@@ -1,73 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         
-        nav a{
-            color: #da00ff;;
-            display :inline;
-            text-decoration:none;
-            word-spacing: 20px;
-            background: rgb(112, 81, 88);
-        }
-        h1{
+
+        h1 {
             text-align: center;
             background: crimson;
         }
-        #p1{
-            text-align: center;
-            background: darkred;
-        }
-        #p2{
-            text-align: center;
-            background:rgb(112, 81, 88) ;
-        }
-        #p3{
-            text-align: center;
-            background: gold;
-        }
-        #p4{
-            text-align: center;
-            background: rgb(5, 13, 41);
-        }
-        footer{
-            text-align: center;
-            background:maroon;
-        }
 
+
+
+        footer {
+            text-align: center;
+            background: maroon;
+        }
     </style>
     <title>user information</title>
 </head>
+
 <body>
     <header>
-       <nav class>
+        <nav >
             <ul>
                 <li><a href="https://www.nrdc.org/stories/renewable-energy-clean-facts#sec-whatis">About </a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Renewable_energy"> wikipedia</a></li>
                 <li><a href="https://www.irena.org/">IRENA</a></li>
             </ul>
         </nav>
+        <br>
+
 
         <h1>
             Renewable energy
         </h1>
-        
+
 
     </header>
     <main>
-        <p id= p1>
+        <p style=" text-align: center;
+        background: darkred;color: darkgoldenrod;">
             what is your name ?
         </p>
-        <p id= p2>
+        <p style="text-align: center;
+        background:rgb(112, 81, 88);color: darkcyan; ">
             what is your age ?
         </p>
-        <p id= p3>
-            what is your  Specialization ?
+        <p style=" text-align: center;
+        background: gold; color: darkblue;">
+            what is your Specialization ?
         </p>
-        <p id= p4>
+        <p style=" text-align: center;
+        background: rgb(5, 13, 41); color: crimson;">
             what is your grade ?
         </p>
 
@@ -78,24 +66,31 @@
     </footer>
     <script>
 
-        let userName=prompt('what\'s your name? ');
-          console.log(userName);
-          alert(userName);
-          
-          let userAge=prompt('what\'s your age?');
+    let userName=prompt('what\'s your name? ');
 
-         console.log(userAge);
-         alert(userAge);
-         let userSpecialization=prompt('what\'s your Specialization?');
-         console.log(userSpecialization);
-         alert(userSpecialization);
-         let userGrade=prompt('what\'s your at your college ?')
-         console.log(userGrade);
-         alert(userGrade);
+    alert( 'hello ' + userName + ' welcome here');
+    console.log( 'hello ' + userName + ' welcome here');
+    let userAge=prompt('what\'s your age?');
 
 
-        alert('Hi '+ userName + ' your age is '+ userAge + ' and your Specialization is ' 
-        + userSpecialization + ' finally your grade is ' + userGrade );
+    alert('your age is' + userAge);
+
+    console.log('your age is ' + userAge);
+    let userSpecialization=prompt('what\'s your Specialization?');
+
+    alert('your Specialization is '+ userSpecialization );
+    console.log('your Specialization is '+ userSpecialization );
+
+
+    let usercollege=prompt('what\'s the name of your college? ?')
+
+    alert('The name of your college is ' + usercollege);
+    console.log('The name of your college is ' + usercollege);
+
+
+    alert('Hi '+ userName + ' your age is '+ userAge + ' and your Specialization is '
+    + userSpecialization + ' finally The name of your college is ' + usercollege );
     </script>
 </body>
+
 </html>
